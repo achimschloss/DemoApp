@@ -55,7 +55,7 @@ class ServiceViewModel: NSObject, ObservableObject {
             claims: claims,
             promptWeb: "consent",
             loginLayerConfig: loginLayerConfig,
-            permissionLayerConfig: nil)
+            permissionLayerConfig: permissionLayerConfig)
         NetIdService.sharedInstance.initialize(config)
     }
 
