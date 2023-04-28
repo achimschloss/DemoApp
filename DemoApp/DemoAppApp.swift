@@ -15,6 +15,9 @@ struct DemoAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView().environmentObject(serviceViewModel)
+                .onOpenURL(perform: { url in
+                    serviceViewModel.resumeSession(url)
+                })
                 .onAppear {
                     serviceViewModel.initializeNetIdService()
                 }
