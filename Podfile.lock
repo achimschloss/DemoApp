@@ -1,0 +1,34 @@
+PODS:
+  - AppAuth (1.6.1):
+    - AppAuth/Core (= 1.6.1)
+    - AppAuth/ExternalUserAgent (= 1.6.1)
+  - AppAuth/Core (1.6.1)
+  - AppAuth/ExternalUserAgent (1.6.1):
+    - AppAuth/Core
+  - NetIdMobileSdk (1.0.0):
+    - AppAuth (~> 1.5)
+
+DEPENDENCIES:
+  - NetIdMobileSdk (from `https://github.com/eunid/netid-sdk-ios.git`, tag `1.0.0`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+
+EXTERNAL SOURCES:
+  NetIdMobileSdk:
+    :git: https://github.com/eunid/netid-sdk-ios.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  NetIdMobileSdk:
+    :git: https://github.com/eunid/netid-sdk-ios.git
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  AppAuth: e48b432bb4ba88b10cb2bcc50d7f3af21e78b9c2
+  NetIdMobileSdk: 759a50fe155c4f67e7fdac10215729795b2edd46
+
+PODFILE CHECKSUM: dbfea41267fcd305fa9fbb86623ae384fd48a157
+
+COCOAPODS: 1.11.3
